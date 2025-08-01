@@ -8,3 +8,31 @@
     --font-body: "Poppins", serif;
     --font-titulo: "Poppins", serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+p{
+    margin-top: 20px;
+}
+
+img{
+    max-width: 90%;
+}
+
+header{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
